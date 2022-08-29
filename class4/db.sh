@@ -9,6 +9,7 @@ docker service create   \
 --env MYSQL_ROOT_PASSWORD=my-secret-pw \
 --env MYSQL_USER="wordpress"  \
 --env MYSQL_PASSWORD="wordpress" \
-mysql
+wordpress:php7.3
+
 
 # bash db.sh
