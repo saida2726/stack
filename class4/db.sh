@@ -8,4 +8,4 @@ docker service create   \
 ---constraint=node.role==worker  \
 mysql
 
-# bsh mysql.sh
+# bash db.sh
